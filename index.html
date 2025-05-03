@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        #game-container {
+            display: inline-block;
+            position: relative;
+        }
+        
+        canvas {
+            border: 2px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .instructions {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: left;
+        }
+        
+        .instructions h2 {
+            margin-top: 0;
+        }
+        
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Snake Game</h1>
+        <div id="game-container">
+            <div class="loading">Loading game...</div>
+            <canvas id="game" width="800" height="600"></canvas>
+        </div>
+        <div class="instructions">
+            <h2>How to Play</h2>
+            <ul>
+                <li>Use arrow keys to control the snake</li>
+                <li>Eat the red food to grow and increase your score</li>
+                <li>Avoid hitting the snake's own body</li>
+                <li>Press SPACE to pause/resume the game</li>
+                <li>Press R to restart after game over</li>
+                <li>Press ESC to quit</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // This is a placeholder. The actual game will be loaded by pygbag
+        document.addEventListener('DOMContentLoaded', function() {
+            const canvas = document.getElementById('game');
+            const loading = document.querySelector('.loading');
+            
+            // In a real implementation, we would initialize the game here
+            // For now, we'll just hide the loading message after a delay
+            setTimeout(() => {
+                loading.style.display = 'none';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+README.md
+setup.py
+snakegame/__init__.py
+snakegame/game.py
+snakegame.egg-info/PKG-INFO
+snakegame.egg-info/SOURCES.txt
+snakegame.egg-info/dependency_links.txt
+snakegame.egg-info/entry_points.txt
+snakegame.egg-info/requires.txt
+snakegame.egg-info/top_level.txt

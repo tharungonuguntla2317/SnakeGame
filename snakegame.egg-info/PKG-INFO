@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snakegame
+Version: 0.1.0
+Summary: A simple Snake game implemented in Python using Pygame
+Home-page: UNKNOWN
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Keywords: game,snake,pygame
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
